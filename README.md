@@ -13,3 +13,4 @@ Type 'exit()' at the interpreter to exit.
 6. see the "https://flask-sqlalchemy.palletsprojects.com/en/2.x/quickstart/#a-minimal-application" to work around the SQLAlchemy database.
 7. After adding in SQLAlchemy database, pick and drop 'honey_todo.db' file at 'https://inloop.github.io/sqlite-viewer/'. And the see the added content.
 8. Add "Jinja2 Snippet Kit" extension in Vscode. With this, we can use Jinja templating. 
+9. Template Inheritance :- Suppose there are search bars on 100 html pages, and I need to remove them. I would remove them manually. If I had used Inheritance template, I could have removed it from all the pages.
