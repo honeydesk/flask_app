@@ -1,4 +1,8 @@
 # flask_app
+We will see:
+Flask
+SQLAlchemy
+Heroku
 
 ## Notes
 1. On url, at "http://localhost:5000/static/my_name.txt" displays the content of the file "my_name.txt"
@@ -26,4 +30,8 @@ Type 'exit()' at the interpreter to exit.
        iii. Create a Procfile (it is used by heroku to deploy the application)
        iv.  Run the following commands:
             --> heroku login
+        v. After verifying the github has the updated code, run:
+            --> heroku create honey-todo-app
+            --> git remote -v (this will give link to 'git of Heroku')
+            --> git push heroku main (your app would be launched)
         
