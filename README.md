@@ -15,3 +15,15 @@ Type 'exit()' at the interpreter to exit.
 8. Add "Jinja2 Snippet Kit" extension in Vscode. With this, we can use Jinja templating. 
 9. Template Inheritance :- Suppose there are search bars on 100 html pages, and I need to remove them. I would remove them manually. If I had used Inheritance template, I could have removed it from all the pages.
 10. Read "https://flask-sqlalchemy.palletsprojects.com/en/2.x/quickstart/#"
+11. 'gunicorn' helps us in serving our application in multiple threads.
+12. To Deploy on Heroku (using CLI):
+         i. Install Heroku CLI on Ubuntu
+            --> sudo snap install --classic heroku 
+            --> Follow "https://devcenter.heroku.com/articles/heroku-cli"
+        ii. Create a requirements.txt from your venv/
+            --> pip install gunicorn
+            --> pip freeze > requirements.txt
+       iii. Create a Procfile (it is used by heroku to deploy the application)
+       iv.  Run the following commands:
+            --> heroku login
+        
